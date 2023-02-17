@@ -1,4 +1,4 @@
-package maven.intelliJ.controller;
+package maven.intelliJ.service;
 
 import java.util.Scanner;
 

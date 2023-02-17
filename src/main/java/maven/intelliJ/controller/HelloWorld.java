@@ -1,8 +1,12 @@
 package maven.intelliJ.controller;
 
 
+import maven.intelliJ.service.Fibonacci;
+
 public class HelloWorld {
     public static void main(String[] args){
+
+        Fibonacci.fibo(5);
         String str = "malayalam";
         int l = str.length();
         boolean b = true;
