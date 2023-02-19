@@ -15,7 +15,6 @@ public class HelloWorld {
                 b = false;
                 break;
             }
-
         }
         if(b) System.out.println((str + " is paliandrome"));
         else System.out.println(str + " is not a palaindrome");
