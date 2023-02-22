@@ -11,16 +11,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-<!--      <module name="e-commerce" target="1.8" />-->
       <module name="myfirst.ci.demo" target="19" />
-      <module name="myfirstCI" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ci.demo" options="-parameters" />
-<!--      <module name="e-commerce" options="-parameters" />-->
-      <module name="myfirst.ci.demo" options="-parameters" />
     </option>
   </component>
 </project>
