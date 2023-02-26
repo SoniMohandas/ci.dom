@@ -4,7 +4,7 @@ package maven.intelliJ.controller;
 public class Paliandrome {
     public static void main(String[] args){
 
-        String str = "malayalam";
+        String str = "vikadakiv";
         int l = str.length();
         boolean b = true;
         for (int i =0; i<l; i++){
@@ -14,6 +14,6 @@ public class Paliandrome {
             }
         }
         if(b) System.out.println((str + " is paliandrome"));
-        else System.out.println(str + " is not a paliandrome");
+        else System.out.println(str + "is not a paliandrome");
     }
 }
