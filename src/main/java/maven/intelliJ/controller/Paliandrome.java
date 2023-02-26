@@ -1,12 +1,9 @@
 package maven.intelliJ.controller;
 
 
-import maven.intelliJ.service.Fibonacci;
-
-public class HelloWorld {
+public class Paliandrome {
     public static void main(String[] args){
 
-        Fibonacci.fibo(5);
         String str = "malayalam";
         int l = str.length();
         boolean b = true;
@@ -17,6 +14,6 @@ public class HelloWorld {
             }
         }
         if(b) System.out.println((str + " is paliandrome"));
-        else System.out.println(str + " is not a palaindrome");
+        else System.out.println(str + " is not a paliandrome");
     }
 }
