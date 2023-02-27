@@ -2,20 +2,24 @@ package maven.intelliJ.service;
 
 import java.util.Scanner;
 
-public class Fibonacci {
-    public static int[] a;
-    public static void main(String[] args){
+
+public class Fibonacci{
+    static int arr[];
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        System.out.print("Enter a number: ");
         int num = scan.nextInt();
-        a = new int[num + 1];
-        for (int i=0; i<num; i++) System.out.print(fibo(i)+ " ");
-    }
-    public static int fibo(int num){
-        if(num == 0 | num == 1) return num;
-        if(a[num] != 0) return a[num];
-        else{
-            a[num] = fibo(num - 1) + fibo(num - 2);
+        arr = new int[num+1];
+        for(int i=0; i<num; i++){
+            System.out.print(fibo(i)+" ");
         }
-        return a[num];
+    }
+    public static int fibo(int n){
+        if(n==0 | n==1) return n;
+        if(arr[n] != 0) return arr[n];
+        else {
+            arr[n] = fibo(n-2) + fibo(n-1);
+        }
+        return arr[n];
     }
 }
